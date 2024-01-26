@@ -1,0 +1,126 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    font-size: 1.2rem;
+}
+
+h2, button{
+    line-height: 1.5;
+    font-family:'Montserrat bold', sans-serif;
+}
+
+.divlogo {
+
+    max-width: 100%;
+    border: 0;
+    margin: 0;
+    padding-bottom: 5%;
+    
+}
+
+#logo{
+    max-width: 30%;
+    padding-top: 8%;
+}
+
+
+header {
+    background-color: black;
+    align-items: center;
+    display: block;
+}
+
+nav {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    text-align:center;
+    
+}
+
+.articlenav{
+   align-self: center;
+   padding: 50px;
+}
+
+button{
+    height: 5vh;
+    width: 50%;
+    border: 0;
+}
+
+
+h2 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    background-color: #f04c2f;
+    border-radius: 5px;
+    color: white;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+section {
+    text-align: center;
+}
+
+#immagineNotebook {
+    border-radius: 50%;
+    min-width: 50%;
+    max-width: 60%;
+    align-items: center;
+    display: inline;
+}
+
+
+.sezione {
+    background-color: #f04c2f;
+}
+
+.sezione p,
+blockquote {
+    color: white;
+}
+
+#epicode {
+    color: white;
+}
+
+div {
+
+    text-align: center;
+    border: 2px solid #dee1e3;
+    margin: 5%;
+}
+
+.immagineDiv {
+    max-width: 100%;
+
+}
+
+.footer{
+    background-color:#25a2c3;
+    text-align: center;
+    color: white;
+}
+
+.h2footer, a{
+    color: white;
+}
+
+address {
+    display: inline;
+}
+
+hr{
+    width: 40%;
+}
