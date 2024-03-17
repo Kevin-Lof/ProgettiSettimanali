@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Spectral:wght@400;700&display=swap');
+
+
+:root{
+    --yellow: #ffc017;
+    --grey: #191919;
+    --green: #1a8917;
+}
+
+/*REGOLE GENERALI*/
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+h1{
+    font-family: "Spectral", serif;
+    letter-spacing: -7px;
+}
+
+h4{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+/*NAV BAR*/
+
+#nav-bar{
+    padding: 30px 10%;
+    background-color: var(--yellow);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+    border: 1px solid var(--grey);
+
+    position: sticky;
+    top: 0;
+
+    transition-duration: 0.3s;
+}
+
+#nav-bar nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: var(--grey)
+}
+
+.btn{
+    color: white;
+    border: none;
+    background-color: black;
+
+    padding: 10px 15px;
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    transition-duration: 0.3s;
+}
+
+/* SEZIONE SOTTO L'HEADER */
+
+
+#sub-header{
+    background-color: var(--yellow);
+    padding-left: 10%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid var(--grey);
+}
+
+
+.subh-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.subh-left h1{
+    font-size: 6em;
+}
+
+.subh-left p{
+    font-size: 1.3em;
+    width: 400px;
+}
+
+.subh-left .btn{
+    max-width: 40%;
+    font-size: 1.1em;
+}
+
+#emme{
+    height: 500px;
+}
+
+
+/* ARTICOLI E TRENDING */
+
+#trending{
+    display: flex;
+    flex-direction: column;
+
+    padding: 40px 10%;
+    gap: 20px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.174);
+}
+
+#trending h4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.trending-elements{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.trending-number{
+
+
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.196);
+}
+
+.topic{
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+    
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.trending-title{
+    font-weight: bold   ;
+}
+
+.article-title{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+.author img{
+    width: 20px;
+    border-radius: 5px;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 100%;
+}
+
+
+.date-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date{
+    color: var(--grey);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 5px;
+}
+
+
+.author, .date{
+    font-size: 0.8em;
+}
+
+
+
+#articles{
+    
+    display: flex;
+    flex-direction: column;
+    
+    box-sizing: border-box;
+    width: 100%;
+    
+    gap: 50px;
+}
+
+.article-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+
+.article-text{
+    color: var(--grey);
+}
+
+.article-image{
+    height: 120px;
+}
+
+
+.article-topic{
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.08);
+    
+    border-radius: 20px;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+
+main{
+    padding: 50px 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 80px;
+}
+
+
+/* SEZIONE LATERALE */
+
+#more-of{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    height: fit-content;
+
+    position: sticky;
+    top: 150px;
+    z-index: 2;
+}
+
+#more-of a{
+    text-decoration: none;
+    color: var(--grey);
+    
+}
+
+.more-of-topics{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.215);
+}
+
+.more-of-topics a{
+    padding: 10px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.215);
+}
+
+#more-of-footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}

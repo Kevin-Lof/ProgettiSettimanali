@@ -1,0 +1,12 @@
+header{
+    background-color: #131921;
+}
+
+#logoAmazon{
+    width: 100px;
+}
+.home:link,
+.home:visited {
+    color: white !important;
+}
+
