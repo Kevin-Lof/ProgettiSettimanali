@@ -1,0 +1,70 @@
+
+#logoNetflix {
+    width: 120px;
+}
+
+svg {
+    fill: #6c757d;
+
+}
+
+#pic {
+    width: 40px;
+}
+
+#end {
+    width: 30%;
+    max-width: 220px;
+}
+
+#end *{
+    cursor: pointer;
+}
+
+
+.carousel img{
+    max-width: 100%;
+    opacity: 0.7;
+ 
+
+}
+.carousel img:hover{
+    opacity: 1.0;
+    transform: scale(1.1);
+   
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 55px;
+}
+
+#profilo{
+    font-size: 62px
+}
+
+input[type=text]::placeholder{
+    color: white;
+}
+input[type=checkbox]{
+    display: none;    
+}
+
+@media screen and (min-width: 768px) {
+    .carousel img{
+        max-width: 15%;
+      
+    }
+   
+}
+@media screen and (min-width: 992px) {
+    .carousel img{
+        max-width: 15%;
+       
+    }
+   
+}
+@media screen and (max-width: 991px) {
+    #end {
+        width: 100%;
+
+    }
+}
